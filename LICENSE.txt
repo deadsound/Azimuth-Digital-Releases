@@ -1,0 +1,86 @@
+AZIMUTH DIGITAL LICENSE
+=======================
+Version 1, October 2026
+
+Copyright (c) 2026 Azimuth Digital. All rights reserved.
+
+Azimuth Digital is free of charge. This license says what you may do with it.
+By installing or using Azimuth Digital you agree to it. If you do not agree,
+do not install or use it.
+
+"Azimuth Digital" means the program, its documentation and its test clips, as
+downloaded from the official download page:
+
+    https://github.com/deadsound/Azimuth-Digital-Releases
+
+
+1. WHAT YOU MAY DO
+
+- Install and use Azimuth Digital on any number of computers, for any
+  purpose, including paid, commercial, broadcast and touring work.
+- Copy it onto computers you own or manage, including computers you rent out
+  with Azimuth Digital installed, and keep backup copies.
+- Record and show what it plays, and show Azimuth Digital itself, for example
+  in productions, training, reviews and screenshots.
+- Change its settings and files for your own use.
+
+
+2. WHAT YOU MAY NOT DO
+
+- Share the download. Do not post Azimuth Digital, or links to copies of it
+  that you host, on websites, file-sharing services, app stores or software
+  libraries, and do not give copies to other people or organizations to
+  install on their own computers. Send them to the official download page
+  instead, so they get the current version.
+- Sell it or charge for it as software, or include it in a software product
+  or bundle that you sell. Charging for your own work or equipment that uses
+  Azimuth Digital, such as running playback for a show or renting out a
+  computer with it installed, is fine.
+- Share versions you have changed, or use its code in other software.
+- Remove or change its copyright, license or trademark notices.
+
+
+3. OTHER PEOPLE'S SOFTWARE
+
+Azimuth Digital includes and uses software made by others, listed in
+THIRD_PARTY_NOTICES.txt. That software is covered by its own licenses, and
+nothing in this license limits what those licenses allow. The Companion module
+is released separately under the MIT license (the LICENSE file in its package).
+
+
+4. OWNERSHIP
+
+Azimuth Digital is licensed to you, not sold. All rights not given to you in
+this license are reserved.
+
+
+5. NO WARRANTY
+
+AZIMUTH DIGITAL IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NON-INFRINGEMENT.
+
+Live shows depend on many things outside the software's control. You are
+responsible for testing your show on the equipment you will use and for
+having a backup plan.
+
+
+6. LIMITATION OF LIABILITY
+
+TO THE EXTENT THE LAW ALLOWS, THE COPYRIGHT HOLDER IS NOT LIABLE FOR ANY CLAIM
+OR DAMAGES OF ANY KIND ARISING FROM THE USE OF AZIMUTH DIGITAL OR FROM IT NOT
+WORKING, INCLUDING AN INTERRUPTED, DELAYED OR CANCELLED SHOW OR EVENT, LOST
+INCOME OR BUSINESS, LOST OR DAMAGED MEDIA OR DATA, OR DAMAGE TO EQUIPMENT,
+EVEN IF TOLD THAT SUCH DAMAGES WERE POSSIBLE.
+
+
+7. ENDING THIS LICENSE
+
+This license ends automatically if you break it. You must then stop using
+Azimuth Digital and delete your copies.
+
+
+8. NEW VERSIONS
+
+Later versions of Azimuth Digital may come with a different license. This
+license keeps applying to the version it came with.
