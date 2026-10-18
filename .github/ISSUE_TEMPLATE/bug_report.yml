@@ -1,0 +1,90 @@
+name: Bug report
+description: "Something in Azimuth Digital didn't work as it should."
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. The more of this you fill in, the faster it gets fixed.
+        Please check the [latest version](https://github.com/deadsound/Azimuth-Digital-Releases/releases/latest) first; it may already be fixed.
+
+  - type: input
+    id: version
+    attributes:
+      label: Azimuth version
+      description: "Output setup shows it next to Helper; it is also at the top of the helper window."
+      placeholder: "0.5.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: computer
+    attributes:
+      label: Computer
+      options:
+        - Windows 11
+        - Windows 10
+        - Mac (Apple silicon)
+        - Mac (Intel)
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: gpu
+    attributes:
+      label: Graphics card
+      description: "On Windows, Task Manager › Performance › GPU shows its name."
+      placeholder: "NVIDIA GeForce RTX 3060"
+
+  - type: dropdown
+    id: renderer
+    attributes:
+      label: Renderer
+      description: "Output setup › Picture › Renderer."
+      options:
+        - Standard
+        - GPU
+        - Not sure
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: How bad is it?
+      options:
+        - It stopped a show, or would have
+        - It gets in the way, but there is a workaround
+        - Small or cosmetic
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: "What you saw, and what you expected instead."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to make it happen
+      description: "The steps, if you can repeat it. Say how you were controlling Azimuth: keyboard, mouse, Companion, PlaybackPro commands or OSC."
+      placeholder: |
+        1. Load a 4K HEVC clip in Preview
+        2. Take it with a dissolve
+        3. The picture freezes for a moment halfway through
+
+  - type: input
+    id: media
+    attributes:
+      label: Media involved
+      description: "If it is about playback: the clip's format, as the playlist's Media column shows it."
+      placeholder: "HEVC 3840x2160 10-bit, 29.97 fps, .mp4"
+
+  - type: textarea
+    id: log
+    attributes:
+      label: Log file and screenshots
+      description: "Drag that day's file from the Logs folder (inside the Azimuth folder) into this box. A screenshot or phone photo of the problem helps too."
