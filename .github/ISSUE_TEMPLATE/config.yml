@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: User manual
+    url: https://github.com/deadsound/Azimuth-Digital-Releases/releases/latest/download/Azimuth-Digital-User-Manual.pdf
+    about: "Everything Azimuth does, with pictures. Troubleshooting is in chapter 12."
