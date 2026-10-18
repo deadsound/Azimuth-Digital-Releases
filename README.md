@@ -53,8 +53,12 @@ Also in every [release](https://github.com/deadsound/Azimuth-Digital-Releases/re
 
 ## Help
 
-Press **F1** (or **Help**) in Azimuth for the manual. Questions and bug reports:
-[open an issue](https://github.com/deadsound/Azimuth-Digital-Releases/issues).
+Press **F1** (or **Help**) in Azimuth for the manual.
+
+Found a bug? **[Report it here](https://github.com/deadsound/Azimuth-Digital-Releases/issues/new?template=bug_report.yml)**.
+The form asks for your Azimuth version, computer and graphics card, and the day's
+log file from the Logs folder. For questions and ideas,
+[open an issue](https://github.com/deadsound/Azimuth-Digital-Releases/issues/new).
 
 ---
 
