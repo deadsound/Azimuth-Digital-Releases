@@ -40,8 +40,9 @@ Also in every [release](https://github.com/deadsound/Azimuth-Digital-Releases/re
 
 - **Windows 10 or 11 (64-bit)** with Google Chrome (or Microsoft Edge). A
   graphics card with hardware HEVC decoding is recommended for 4K.
-- **Mac:** the same download; install Node.js from nodejs.org and Chrome, then
-  open *Start Azimuth (Mac).command*.
+- **Mac:** the same download, with Google Chrome. Open
+  *Start Azimuth (Mac).command*: the first time it offers to download the
+  Node.js it needs into the Azimuth folder.
 
 ## Start
 
