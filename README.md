@@ -46,8 +46,9 @@ Also in every [release](https://github.com/deadsound/Azimuth-Digital-Releases/re
 ## Start
 
 1. Unzip anywhere, for example to the Desktop.
-2. Double-click **Start Azimuth.bat** (Mac: *Start Azimuth (Mac).command*).
-   The operator screen opens in Chrome.
+2. Double-click **Azimuth Digital.exe** (Mac: *Start Azimuth (Mac).command*).
+   The operator screen opens in Chrome, and Azimuth's icon sits in the
+   notification area: right-click it for the output, the logs and Quit.
 3. **Output setup** › **Detect displays** › **Fullscreen output here** on your
    projector, then **Add clips…**. The quick start guide walks through the rest.
 
