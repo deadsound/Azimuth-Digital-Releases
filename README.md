@@ -62,6 +62,8 @@ update) macOS asks you to allow the start script once:
    malware*. Click **Done** (not Move to Trash).
 2. Apple menu › **System Settings** › **Privacy & Security**, scroll down to
    **Security** and click **Open Anyway** beside the blocked script.
+
+   <img src="img/mac-open-anyway.png" width="420" alt="Privacy & Security: the start script was blocked, with the Open Anyway button">
 3. Click **Open Anyway** again and confirm with your password or Touch ID.
    Azimuth starts in a Terminal window; keep it open during the show.
 
