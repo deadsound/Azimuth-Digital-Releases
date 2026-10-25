@@ -66,6 +66,8 @@ update) macOS asks you to allow the start script once:
    <img src="img/mac-open-anyway.png" width="420" alt="Privacy & Security: the start script was blocked, with the Open Anyway button">
 3. Click **Open Anyway** again and confirm with your password or Touch ID.
    Azimuth starts in a Terminal window; keep it open during the show.
+   If macOS says instead *Sandbox is not allowed to open documents in
+   Terminal*, click OK and double-click the script again: it is allowed now.
 
 If macOS says instead that you do not have permission to open the script, open
 **Terminal**, type `bash ` (with a space), drag the script into the window and
