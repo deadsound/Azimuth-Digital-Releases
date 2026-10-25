@@ -53,6 +53,26 @@ Also in every [release](https://github.com/deadsound/Azimuth-Digital-Releases/re
 3. **Output setup** › **Detect displays** › **Fullscreen output here** on your
    projector, then **Add clips…**. The quick start guide walks through the rest.
 
+### First start on a Mac
+
+Azimuth is not yet signed with Apple, so the first time (and after each
+update) macOS asks you to allow the start script once:
+
+1. macOS says *Apple could not verify "Start Azimuth (Mac).command" is free of
+   malware*. Click **Done** (not Move to Trash).
+2. Apple menu › **System Settings** › **Privacy & Security**, scroll down to
+   **Security** and click **Open Anyway** beside the blocked script.
+3. Click **Open Anyway** again and confirm with your password or Touch ID.
+   Azimuth starts in a Terminal window; keep it open during the show.
+
+If macOS says instead that you do not have permission to open the script, open
+**Terminal**, type `bash ` (with a space), drag the script into the window and
+press Return.
+
+**Updating on a Mac:** unzip the new version as a new folder and move `Media`,
+`Shows`, `config.json` and `tools` from the old folder into it. Don't replace
+the old folder with the new one in Finder: that throws your shows away.
+
 ## Help
 
 Press **F1** (or **Help**) in Azimuth for the manual.
