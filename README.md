@@ -1,11 +1,11 @@
 # Azimuth Digital
 
-**Free show playback for Windows and Mac.** Preview, Program, Take: the playback
+**Free show playback for Windows, Mac and Linux.** Preview, Program, Take: the playback
 workflow you already know, built on Chrome's hardware video engine.
 
 ## Download
 
-**[Download Azimuth Digital (Windows and Mac)](https://github.com/deadsound/Azimuth-Digital-Releases/releases/latest/download/Azimuth-Digital.zip)**
+**[Download Azimuth Digital (Windows, Mac and Linux)](https://github.com/deadsound/Azimuth-Digital-Releases/releases/latest/download/Azimuth-Digital.zip)**
 
 Also in every [release](https://github.com/deadsound/Azimuth-Digital-Releases/releases/latest):
 
@@ -43,20 +43,26 @@ Also in every [release](https://github.com/deadsound/Azimuth-Digital-Releases/re
 - **Mac:** the same download, with Google Chrome. Open
   *Start Azimuth (Mac).command*: the first time it offers to download the
   Node.js it needs into the Azimuth folder.
+- **Linux** (Ubuntu 22.04 or later; other distributions too): the same
+  download, with Google Chrome (or Chromium). Run
+  *Start Azimuth (Linux).sh*: the first time it offers to download the
+  Node.js it needs into the Azimuth folder. Converting files needs ffmpeg
+  (`sudo apt install ffmpeg`).
 
 ## Start
 
 1. Unzip anywhere, for example to the Desktop.
-2. Double-click **Azimuth Digital.exe** (Mac: *Start Azimuth (Mac).command*).
+2. Double-click **Azimuth Digital.exe** (Mac: *Start Azimuth (Mac).command*;
+   Linux: *Start Azimuth (Linux).sh*, see below).
    The operator screen opens in Chrome, and Azimuth's icon sits in the
    notification area: right-click it for the output, the logs and Quit.
-3. **Output setup** › **Detect displays** › **Fullscreen output here** on your
+3. **Settings** › **Output** › **Detect displays** › **Fullscreen output here** on your
    projector, then **Add clips…**. The quick start guide walks through the rest.
 
 ### First start on a Mac
 
-Azimuth is not yet signed with Apple, so the first time (and after each
-update) macOS asks you to allow the start script once:
+Azimuth is not yet signed with Apple, so the first time (and after an
+update you install by hand) macOS asks you to allow the start script once:
 
 1. macOS says *Apple could not verify "Start Azimuth (Mac).command" is free of
    malware*. Click **Done** (not Move to Trash).
@@ -73,9 +79,28 @@ If macOS says instead that you do not have permission to open the script, open
 **Terminal**, type `bash ` (with a space), drag the script into the window and
 press Return.
 
-**Updating on a Mac:** unzip the new version as a new folder and move `Media`,
-`Shows`, `config.json` and `tools` from the old folder into it. Don't replace
-the old folder with the new one in Finder: that throws your shows away.
+### Start on Linux
+
+Open a terminal in the Azimuth folder and run `./"Start Azimuth (Linux).sh"`
+(or in Files: right-click it › **Run as a Program**). Keep its window open
+during the show; closing it stops Azimuth. Google Chrome plays H.264 and
+HEVC; Chromium plays what your distribution built it with. If the script says
+it is not executable (some unzip programs drop that), run
+`bash "Start Azimuth (Linux).sh"` instead.
+
+## Updating
+
+From 0.7.1 on, Azimuth updates itself when you ask it to: a small **available**
+button appears at the top of the operator screen when a new version is out;
+click it, then **Install and restart** (Windows, Mac and Linux). It checks the new
+version's signature, installs it while Program is clear, restarts in a few
+seconds, and keeps your shows, media and settings. The version before is kept
+for 30 days: Settings › Info › Updates › **Go back**.
+
+**From 0.7.0, by hand:** quit Azimuth and unzip the new version over the old
+folder. On a Mac (or Linux, if you prefer), unzip it as a new folder and move `Media`, `Shows`,
+`config.json` and `tools` from the old folder into it. Don't replace the old
+folder with the new one in Finder: that throws your shows away.
 
 ## Help
 
